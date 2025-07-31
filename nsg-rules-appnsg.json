@@ -1,0 +1,11 @@
+{
+  "name": "DenyAllInbound",
+  "priority": 4096,
+  "direction": "Inbound",
+  "access": "Deny",
+  "protocol": "*",
+  "sourcePortRange": "*",
+  "destinationPortRange": "*",
+  "sourceAddressPrefix": "*",
+  "destinationAddressPrefix": "*"
+}

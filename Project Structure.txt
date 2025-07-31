@@ -1,0 +1,17 @@
+azure-security-nsg-firewall/
+├── README.md
+├── architecture/
+│   ├── network-diagram.png
+│   └── vm-subnet-table.md
+├── configuration/
+│   ├── nsg-rules-appnsg.json
+│   ├── nsg-rules-adminnsg.json
+│   └── powershell-enable-flowlogs.ps1
+├── testing/
+│   ├── rdp-test-results.txt
+│   ├── test-netconnection-screenshot.png
+│   └── sample-flowlog.json
+├── documentation/
+│   ├── flowlog-analysis.md
+│   └── troubleshooting-guide.md
+└── LICENSE
